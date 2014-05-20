@@ -15,10 +15,6 @@ If the matrix inverse has already been calculated, it will instead
 # ----- cx <- makeCacheMatrix(x) // Create our special matrix
 # ----- cx$get() // Return the matrix
 
-# - Second function, "cachesolve()"
-# --- first checks if there is a cached inverse -> returns cached/existing value ... no computation required
-# ------ else computes inverse, and returns the same
-
 # makeCacheMatrix: returns a matrix.
 # This functions first Sets the value of the matrix
 # Then Gets the value of the matrix
